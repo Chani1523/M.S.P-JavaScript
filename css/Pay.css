@@ -1,0 +1,19 @@
+
+h5{
+    color: white;
+    text-align: center; 
+    font-size: xx-large;   
+    }
+    form{
+        color: white;
+        text-align: center; 
+    
+    }
+    
+    #thaslom{
+        background-color: white;
+        border:10px solid black;
+        width: 500px;
+        height: 500px;
+        align-items: center;
+    }

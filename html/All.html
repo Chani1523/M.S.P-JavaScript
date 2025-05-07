@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/Dieta.css">
+    <link rel="stylesheet" href="../css/Meamenet.css">
+    <link rel="stylesheet" href="../css/Sport.css">
+    <link rel="stylesheet" href="../css/Headr&footr.css">
+    <link rel="stylesheet" href="../css/N.css"> 
+</head>
+
+
+<!-- לצורך הנגישות -->
+<body id="body">
+
+  <!-- //דבים המכילים את הדפים -->
+   <!-- ------------------ -->
+
+
+  <!-- //דיב המכיל את דף ההדר ופוטר -->
+  <div id="header"></div>
+ <!-- אידי לצורך שמירה לסל קניות -->
+    <div id="busket"></div>
+   
+      <!-- ------------- -->
+
+    <!-- נגישות -->
+    
+    <div id="id01" class="modal">
+
+    <script>
+        
+        var modal = document.getElementById('id01');
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        
+        </script>
+
+        <!-- יצירת האפשרויות לבחירה -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" id="b">הגדלת טקסטים</a>
+        <a href="#" id="c">חדות</a>
+        <a href="#" id="n">בהירות</a>
+        
+      </div>
+      
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()"> ♿</span>
+
+<!-- עד כאן נגישות -->
+  
+<div id="dieta"></div>
+<div id="sportdhf"></div>
+<div id="mhmantdhf"></div>
+<div id="divSport"></div>
+<div id="divMea"></div>
+<div id="divDieta"></div>
+
+
+    <script src="../js/header&footer.js"></script>
+    <script src="../js/All.js"></script>
+
+   </body>
+</html>

@@ -1,0 +1,16 @@
+# System files
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Images
+picther/
+
+# Minified files
+*.min.js
+*.min.css

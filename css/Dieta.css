@@ -1,0 +1,45 @@
+
+.myDieta{
+ 
+   color: white;
+   font-size: xx-large;
+  border: 2px solid white;
+  border: radius 2px;
+  width: 902px;
+  height: 250px;
+  padding:10px 0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+  margin-bottom:150px;
+ 
+}
+
+#gezer{
+    background-image:url(../picther/gezer.jpg);
+  }
+
+#chasa{
+    background-image:url(../picther/chasa.jpg);
+}
+
+#vag{
+    background-image:url(../picther/veg&froute.jpg);
+}
+
+#tot{
+    background-image:url(../picther/tot.jpg);
+   
+}
+#avokado{
+    background-image:url(../picther/avokado.jpg);
+    
+}
+
+#dieta{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}

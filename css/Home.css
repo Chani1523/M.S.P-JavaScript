@@ -1,0 +1,95 @@
+.category{
+  
+   background-repeat: no-repeat;
+   border: 2px white;
+   border: radius 200px;
+   font-style: oblique;
+   font-weight: 1000;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color:rgba(33, 26, 26, 0.842);
+   font-size: 30px;
+   width: 10%;
+   height: 10%;
+   padding:10%; 
+  }
+  
+  /* פריסה של התמונות */
+  .divimg{
+  display: flex;
+justify-content: space-around;
+}
+
+
+
+/* קטגוריה של ספורט */
+#sport{
+  background-image: url("../picther/sport2.jpeg"); 
+  width: 55px; 
+  height:  30px;
+ 
+}
+
+
+/* קטגוריה של דיאטה */
+#dieta
+{
+  background-image: url("../picther/veg.jpg");  
+  width:  60px;
+  height: 35px;
+  text-align: right;
+  color: rgb(16, 15, 15);
+  
+}
+
+/* קטגןריה של מאמנת אישית */
+#personalCoinstract{
+  background-image: url("../picther/personal trainer.jpg");
+  width:  55px;
+  height:  55px;
+ 
+}
+
+/* הכיתוב */
+p{
+  text-align: center;
+  font-weight: 100;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+/* הכותרת */
+h1{
+  text-align: center;
+  color:white;
+  font-size: xx-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* slider */
+
+.mySlides img{
+  vertical-align: middle;
+  width: 75%;
+  height:550px;
+  object-fit: cover;
+}
+.slideshow-container {
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+.fade {
+  animation-name: fade;
+  animation-duration:2s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+} 
+
+/* end slider */

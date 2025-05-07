@@ -1,0 +1,77 @@
+
+#sportdhf{
+  margin: 0;
+ padding: 0;
+ display: grid;
+ grid-template-columns:repeat(4,1fr);
+ gap: 10px;
+ padding: 5px;
+ } 
+
+.mySport{
+    border: 2px solid white;
+    width: 350px;
+    height:350px;
+    border: 2px solid white;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+  }
+/* עושה את התמונה בהירה כשעוברים עליה */
+  .mySport:hover {opacity: 0.7;}
+  
+  #pilatis{
+    background-image: url(../picther/sport3.jpg);
+   
+    grid-column: 1;
+  }
+
+  #zomba{
+    background-image: url(../picther/4.jpg);
+   
+    grid-column: 3;
+  }
+
+  #pool{
+
+    background-image: url(../picther/pool.jpg);
+   
+    grid-column: 2;
+    
+  }
+
+
+  #fraind{
+    background-image: url(../picther/2.jpg);
+  
+    grid-column: 4;
+  }
+
+  #kosher{
+    background-image: url(../picther/treadmill-8045298_640.jpg);
+   
+    grid-column: 1;
+  }
+  .count{
+    border: 2px solid white;
+    border: radius 2px;
+    width: 2px;
+    height: 2px;
+    padding:1%; 
+  
+  }
+
+  .btn{
+    border: 2px solid white;
+    border: radius 8px;
+   
+    padding:1%; 
+  }
+
+   p{
+    color: white;
+   }
+

@@ -1,0 +1,52 @@
+
+#mhmantdhf{
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.meamenet1{
+  width:350px;
+  height:350px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+} 
+
+#one{
+   background-image: url(../picther/4.jpg);
+   grid-column:2;
+   font-size: 330%;
+   border-radius: 50%;
+ 
+}
+
+  /* תמונה שחור לבן כשהעכבר עובר */
+#one:hover{
+  filter: grayscale(100%);
+}
+
+#week{
+   background-image: url(../picther/3.jpg);
+   grid-column: 1;
+   font-size: 330%;
+   border-radius: 50%;
+}
+
+#week:hover{
+  filter: grayscale(100%);
+}
+
+#month{
+   background-image: url(../picther/m1.jpg);
+   grid-column: 3;
+   font-size: 330%;
+   border-radius: 50%;
+}
+#month:hover{
+  filter: grayscale(100%);
+}
